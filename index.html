@@ -11,7 +11,7 @@ body{
 }
 
 .card{
-  width:360px;
+  width:420px;
   margin:60px auto;
   background:white;
   border-radius:10px;
@@ -32,16 +32,27 @@ body{
   height:180px;
   border:2px solid #7a0026;
   margin:20px auto;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#777;
+}
+
+.photo-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
 }
 
 .data{
   padding:10px 20px 25px;
 }
 
+.data h3{
+  margin:10px 0;
+}
+
+.data p{
+  margin:6px 0;
+  font-size:14px;
+}
 </style>
 </head>
 
@@ -49,20 +60,20 @@ body{
 
 <div class="card">
   <div class="header">
-    Universidad Autónoma de Guerrero-Datos de la Credencial.
+    Universidad Autónoma de Guerrero – Datos de la Credencial
   </div>
 
   <div class="photo">
-    FOTO
+    <img src="foto.jpg" alt="Foto" class="photo-img">
   </div>
 
   <div class="data">
     <h3>Carlos Aldair Luciano Villa</h3>
     <p><b>Matrícula:</b> 13315606</p>
-    <p><b>Escuela:</b> CIENCIAS QUIMICO BIOLOGICAS-CHILPO</p>
-    <p><b>Plan de Estudios:</b>DOC. EN CIENCIAS BIOMÉDICAS-2019</p>
-    <p><b>Periodo:</b>(2025B) AGOSTO 2025-ENERO 2026</p>
-    <p><b>Turno:</b>MATUTINO</p>
+    <p><b>Escuela:</b> Ciencias Químico Biológicas – Chilpancingo</p>
+    <p><b>Plan de Estudios:</b> Doctorado en Ciencias Biomédicas (2019)</p>
+    <p><b>Periodo:</b> 2025B (Agosto 2025 – Enero 2026)</p>
+    <p><b>Turno:</b> Matutino</p>
   </div>
 </div>
 
